@@ -3,7 +3,7 @@
  
      <div class="flex flex-row container mx-auto head__container">
       
-      <h1 class="admission__title text-center mx-auto">ABOUT US</h1>
+      <h1 class="admission__title text-center mx-auto">ABOUT US test</h1>
      
      </div>
 
