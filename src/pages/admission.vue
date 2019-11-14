@@ -56,7 +56,7 @@
    </div>
    <div class="container mx-auto mb-10">
       <div class="w-full mx-auto mt-10">
-        <p class="process__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce molestie massa at metus gravida efficitur. Aliquam felis risus, dapibus vitae nisl et, suscipit elementum leo. Vestibulum blandit nunc vitae dignissim imperdiet. Pellentesque vitae ante sit amet augue vestibulum dictum ac in nunc. Aliquam tristique ligula libero, quis ultrices turpis suscipit a.</p>
+        <p class="process__desc">Lorem ipsum dolor sit ametss, consectetur adipiscing elit. Fusce molestie massa at metus gravida efficitur. Aliquam felis risus, dapibus vitae nisl et, suscipit elementum leo. Vestibulum blandit nunc vitae dignissim imperdiet. Pellentesque vitae ante sit amet augue vestibulum dictum ac in nunc. Aliquam tristique ligula libero, quis ultrices turpis suscipit a.</p>
       </div>
    </div>
    <div class="flex flex-wrap w-full footer">
