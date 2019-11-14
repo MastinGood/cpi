@@ -62,7 +62,7 @@
    <div class="flex flex-wrap w-full footer">
      <div class="container mx-auto">
        <div class="xl:w-1/3 lg:w-1/3 md:w-full sm:full pt-16 inline-block align-top">
-           <g-image class="foot__logo" src="../../static/foot_logo.png"/>
+           <g-image class="foot__logo" src="../../static/foot_logo.png" quality="60"/>
            <p class="footer__desc mt-8">Lorem ipsum dolor sit amet, consectetur 
           adipisicing elit. Porro consectetur ut hic ipsum et 
           veritatis corrupti. Itaque eius soluta optio 

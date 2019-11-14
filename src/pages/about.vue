@@ -40,7 +40,7 @@
         <h2 class="text-center history__title mt-20 mb-6">History</h2>
         <p class="history__desc mb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
          <p class="history__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <g-image src="../../static/about_bg_2.png" class="about_bg_2 my-10"/>
+        <g-image src="../../static/about_bg_2.png" class="about_bg_2 my-10" quality="60"/>
       </div>
     </div>
     <div class="flex flex-row mb-20">
@@ -61,7 +61,7 @@
     <div class="flex flex-wrap w-full footer">
      <div class="container mx-auto">
        <div class="xl:w-1/3 lg:w-1/3 md:w-full sm:full pt-16 inline-block align-top">
-           <g-image class="foot__logo" src="../../static/foot_logo.png"/>
+           <g-image class="foot__logo" src="../../static/foot_logo.png" quality="60"/>
            <p class="footer__desc mt-8">Lorem ipsum dolor sit amet, consectetur 
           adipisicing elit. Porro consectetur ut hic ipsum et 
           veritatis corrupti. Itaque eius soluta optio 
