@@ -18,7 +18,7 @@ module.exports = {
   siteDescription: 'Best technical vocational institute',
   siteUrl: 'https://gridsome-portfolio-starter.netlify.com',
   icon: {
-    favicon: './src/favicon.png',
+    favicon: './src/fav2.png',
   },
   plugins: [
     {
