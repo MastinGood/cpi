@@ -8,7 +8,9 @@
       sed do eiusmod tempor incididunt ut labore et dolore magna 
       aliqua.
       </p>
-      <a class="get__btn mx-auto">Get Started</a>
+      <div class="flex -mt-20 justify-center xl:justify-start lg:justify-start md:justify-start sm:justify-start">
+       <a class="get__btn">Get Started</a>
+      </div>
      </div>
 
     <div class="flex mb-10 content">

@@ -3,7 +3,7 @@
  
      <div class="flex flex-row container mx-auto head__container">
       
-      <h1 class="admission__title text-center mx-auto">ABOUT US test</h1>
+      <h1 class="admission__title text-center mx-auto">ABOUT US</h1>
      
      </div>
 
@@ -11,7 +11,7 @@
       <div class="container mx-auto">
         <div class="w-full block">
           <h2 class="admin__process mx-auto text-center">CORE VALUES & MISSION</h2>
-          <div class="w-1/2 mx-auto mt-2">
+          <div class="w-full px-8 xl:w-1/2 lg:w-1/2 md:w-full md:px-10 sm:w-full sm:px-8 mx-auto mt-2">
             <p class="miss__desc text-center">Lorem ipsum dolor sit amet, consectetur 
           adipisicing elit. Porro consectetur ut hic ipsum et 
           veritatis corruption.</p>
@@ -37,7 +37,7 @@
           <p class="mission_list my-4 pl-10 mr-4"><span class="circle"></span> Accentuate learning, growth, perseverance and self-awareness as life-long values.</p>
           <p class="mission_list my-4 pl-10 mr-4"><span class="circle"></span> Accentuate learning, growth, perseverance and self-awareness as life-long values.</p>
         </div>
-        <h2 class="text-center history__title mt-20 mb-20">History</h2>
+        <h2 class="text-center history__title mt-20 mb-6">History</h2>
         <p class="history__desc mb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
          <p class="history__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         <g-image src="../../static/about_bg_2.png" class="about_bg_2 my-10"/>

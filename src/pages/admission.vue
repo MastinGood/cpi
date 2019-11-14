@@ -118,7 +118,6 @@ input[type='radio'] {
   z-index: -1;
 }
 .tab {
-  width: 70%;
   color: white;
   overflow: hidden;
   border-radius: 10px;
