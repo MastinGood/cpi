@@ -1,0 +1,558 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.sub__head, .about__title, .view__all, .faculty__section, .faculty__name, .faculty__position{
+  font-family: 'Montserrat', sans-serif;
+}
+.main__head, .welcome, .news__title, .join, .admission__title, .admin__process, .steps, .integrity, .history__title, .year__title{
+  font-family: Cambria,Georgia,serif; 
+}
+.sub{
+  padding: 20px;
+  background-color: #fac71d;
+}
+.p__head, .get__btn, .about__description, .about__students, .news__subtitle, .faculty__subtitle, .faculty__desc, .footer__desc, .footer__menu_title, .footer__links, .process__desc, .miss__desc, .integrity__desc, .mission_list, .history__desc, .year__title__desc, .menu__link{
+  font-family: 'Open Sans', sans-serif;
+}
+.home__banner{
+    background-image: url(../../static/bg.png); 
+    background-position: center center; 
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+    z-index: 0!important;
+}
+.home__admission{
+  background-image: url(../../static/admission_bg.png); 
+  background-position: center center; 
+  background-size: cover;
+  width: 100%;
+  height: 650px;
+  z-index: 0!important;
+  min-height: 650px!important;
+}
+.home__about{
+  background-image: url(../../static/mission.png); 
+  background-position: center center; 
+  background-size: cover;
+  width: 100%;
+  height: 650px;
+  z-index: 0!important;
+  min-height: 650px!important;
+}
+.get__btn:hover{
+  background: linear-gradient(to right, #0387cc,#0e4d9c);
+  transition: all 1s;
+  color: #fff;
+}
+.year__title{
+  font-weight: bold;
+  font-size: 38px;
+  color: #154071;
+  letter-spacing: 1.4px;
+}
+.year__title__desc{
+  font-weight: 400;
+  font-size: 16px;
+  color: #4a4a4a;
+  line-height: 1.8;
+  letter-spacing: 1.2px;
+}
+.history__desc{
+  font-weight: 400;
+  color: #4a4a4a;
+  font-size: 17px;
+  text-align: left;
+  line-height: 1.8;
+}
+.about_bg_2{
+  width: 100%;
+  height: 500px;
+}
+.integrity__desc{
+  font-weight: 400;
+  font-size: 18px;
+  color: #4a4a4a;
+}
+.circle{
+  height: 16px;
+  width: 16px;
+  border-radius: 10px;
+  background-color: #154071;
+  margin-right: 10px;
+}
+.history__title{
+  font-weight: bold;
+  font-size: 60px;
+  color: #154071;
+}
+.mission_list{
+  font-weight: 400;
+  font-size: 16px;
+  color: #4a4a4a;
+}
+.miss__desc{
+  font-weight: 700;
+  font-size: 20px;
+  color: #4a4a4a;
+}
+.admin__process{
+  font-weight: 800;
+  font-size: 60px;
+  letter-spacing: 1.4px;
+  color: #154071;
+}
+nav a{
+  color: #154071!important;
+}
+
+.menu__list{
+  width: 180px;
+  height: 150px;
+  position: absolute;
+  border-radius: 10px;
+  display: block;
+  background-color: #fff;
+  animation: fadeInUp;
+  transition: all 0.8s!important;
+}
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+.menu__link{
+  font-weight: 600;
+  display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.6);
+    padding: 0.6rem 0 0.8rem 2rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+}
+.integrity{
+  font-weight: bold;
+  font-size: 45px;
+  color: #154071;
+  letter-spacing: 1.8px;
+}
+.steps{
+  font-weight: 800;
+  font-size: 60px;
+  color: #154071;
+}
+.admission__title{
+  font-size: 66px;
+  font-weight: 800;
+  color: #fff;
+  letter-spacing: 1.4px;
+}
+.process__section{
+  margin-top: 320px;
+}
+.process__desc{
+  font-weight: 400;
+  font-size: 18px;
+  text-align: left;
+  color: #4a4a4a;
+  line-height: 1.6;
+  word-spacing: 1px;
+  letter-spacing: 1.4px;
+}
+header{
+  font-weight: 700;
+  letter-spacing: 1.4px;
+  text-transform: capitalize;
+  z-index: 1!important;
+}
+.sub__head{
+  font-size: 20px;
+  color: #fff;
+  font-weight: 600;
+}
+.welcome{
+  font-weight: 700;
+  color: #154071;
+  font-size: 58px;
+  text-align: center;
+}
+.footer__menu_title{
+  font-weight: 600;
+  font-size: 26px;
+  color: #fff;
+}
+.main__head{
+  font-weight: 800;
+  font-size: 56px;
+  color: #fff;
+  line-height: 1.0;
+}
+.get__btn{
+background: -webkit-linear-gradient(to right, #0e4d9c, #0387cc);
+background: linear-gradient(to right, #0e4d9c, #0387cc);
+  margin-top: 50px;
+  padding: 12px 26px;
+  border-radius: 50px;
+  letter-spacing: 1px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+.p__head{
+  font-size: 18px;
+  line-height: 1.4;
+  color: #d8d8d8;
+  margin-bottom: 46px;
+}
+
+.welcome__desc{
+  color: #4a4a4a;
+  letter-spacing: 1.2px;
+  line-height: 1.3;
+  font-size: 18px;
+}
+.footer__links{
+  font-weight: 400;
+  font-size: 18px;
+  color: #a5a5a6;
+}
+.about__section{
+  margin-top: 180px;
+  display: flex;
+  justify-content: center;
+}
+.about__students{
+  font-weight: 400;
+  font-size: 18px;
+  color: #0e4696;
+}
+
+.faculty__section{
+  font-weight: bolder;
+  font-size: 28px;
+  color: #154071;
+}
+/*.faculty__test{
+  width: 400px!important;
+  height: 500px;
+  border:1px solid grey;
+  overflow: hidden;
+}*/
+.faculty__name{
+  font-weight: 700;
+  color: #154071;
+  text-align: center;
+}
+.faculty__position{
+  font-weight: 700;
+  font-size: 20px;
+  color: #5e5e5e;
+  text-align: center;
+}
+.foot__logo{
+  height: 100px;
+  width: 390px;
+}
+.tns-outer{
+  margin-top: 120px;
+}
+.faculty__desc{
+  font-weight: 300;
+  font-style: italic;
+}
+.footer{
+  background-color: #154071;
+  height: 350px;
+}
+.bg__dark__blue{
+  background-color: #154071;
+}
+.footer__desc{
+  font-weight: 400;
+  color: #a5a5a6;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 1.4;
+}
+.about__pic{
+  min-width: 400px;
+  width: 100%;
+}
+.join{
+  font-weight: 800;
+  color: #fac71d;
+  font-size: 30px;
+}
+.faculty__subtitle{
+  font-weight: 400;
+  color: #4a4a4a;
+}
+.arrow__left{
+  padding: 20px 20px;
+  border-radius: 50px;
+  background-color: red;
+  left: 0;
+}
+.arrow__left i{
+  font-size: 18px;
+}
+.test__section{
+  vertical-align: top;
+}
+.box__faculty{
+  width: 400px;
+  height: 500px;
+  border:1px solid grey;
+}
+.news__title{
+  font-weight: 800;
+  font-size: 56px;
+  color: #fff;
+  text-align: center;
+}
+.about__description{
+  font-weight: 400;
+  font-size: 18px;
+  color: #4a4a4a;
+}
+.pl-30{
+  padding-left: 10rem;
+}
+.about__title{
+  font-size: 32px;
+  font-weight: 900;
+  color: #154071;
+}
+.view__all{
+  font-weight: 300;
+  color: #f0c025;
+  font-size: 18px;
+}
+.news__subtitle{
+  font-weight: 300;
+  font-size: 20px;
+  color: #fff;
+}
+.news{
+  min-height: 937px;
+  height: 937px;
+  background-color: #154071;
+}
+.bg__new{
+  background-color: #fac71d;
+}
+.head__container{
+  margin-top: 150px;
+}
+.theme-light {
+  --bg-background-primary: white;
+  --bg-background-secondary: #f7fafc;
+  --bg-background-tertiary: #e2e8f0;
+
+  --bg-background-form: white;
+
+  --text-copy-primary: #2d3748;
+  --text-copy-secondary: #4a5568;
+
+  --border-border-color-primary: white;
+}
+
+.theme-light .search-highlighted {
+  background: #f0fff4;
+}
+
+.theme-light .search-hover:hover {
+  background: #f0fff4;
+}
+
+.theme-dark .markdown-body {
+    color: #24292e;
+}
+
+.theme-dark .search-highlighted {
+  background: #2d3748;
+}
+
+.theme-dark .search-hover:hover {
+  background: #2d3748;
+}
+
+.theme-dark {
+  --bg-background-primary: #0D2438;
+  --bg-background-secondary: #102C44;
+  --bg-background-tertiary: #1E3951;
+
+  --bg-background-form: #1a202c;
+
+  --text-copy-primary: #cbd5e0;
+  --text-copy-secondary: #e2e8f0;
+
+  --border-border-color-primary:  #1a202c;
+}
+
+.theme-dark .markdown-body {
+    color: #cbd5e0;
+}
+
+.content-wrapper {
+  transition: background-color .25s;
+}
+
+a {
+  @apply text-green-700 font-bold;
+}
+
+a:hover {
+  @apply text-green-800;
+}
+
+nav .active {
+ 
+}
+
+.container-inner {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+@media (min-width: 480px) {
+ .footer{
+  height: 700px;
+ }
+ .news{
+  min-height: 937px;
+  height: 2150px;
+  background-color: #154071;
+}
+.meet__faculty{
+  height: 1420px;
+  background-color: #fff;
+}
+.content{
+  margin-top: 55%;
+}
+.menu__list{
+   right: 1%;
+    top: 11%;
+}
+
+}
+@media (min-width: 640px) {
+
+ .content{
+  margin-bottom: 0px!important;
+ }
+ .footer{
+  height: 500px;
+ }
+ .news{
+  min-height: 937px;
+  height: 2100px;
+  background-color: #154071;
+}
+.meet__faculty{
+  height: 1580px;
+  background-color: #fff;
+}
+.content{
+  margin-top: 300px;
+}
+.menu__list{
+   right: 1%;
+    top: 11%;
+}
+}
+
+@media (min-width: 768px) {
+  .card-section{
+    width: 30%!important;
+    margin-right: 15px;
+  }
+  .faculty__desc{
+    font-size: 16px;
+  }
+ .footer{
+  height: 500px;
+ }
+ .news{
+  min-height: 937px;
+  height: 937px;
+  background-color: #154071;
+}
+.meet__faculty{
+  height: 900px;
+  background-color: #fff;
+}
+.content{
+  margin-top: 300px;
+}
+.menu__list{
+   right: 7%;
+    top: 11%;
+}
+}
+
+@media (min-width: 1024px) {
+  .card-section{
+    width: 30%!important;
+    margin-right: 25px;
+  }
+  .footer{
+  height: 350px;
+ }
+ .news{
+  min-height: 937px;
+  height: 937px;
+  background-color: #154071;
+}
+.meet__faculty{
+  height: 1100px;
+  background-color: #fff;
+}
+.content{
+  margin-top: 420px;
+  margin-bottom: 450px;
+}
+.menu__list{
+    right: 5%;
+    top: 11%;
+}
+}
+@media (min-width: 1280px) {
+  .menu__list{
+   right: 14%;
+   top: 10%;
+}
+}
+.checkmark {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg%20width%3D%2229%22%20height%3D%2229%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%3Cpath%20d%3D%22M4.427%2024.93A14.5%2014.5%200%201%201%2024.93%204.427c5.495%205.69%205.416%2014.733-.177%2020.326s-14.637%205.672-20.326.177z%22%20fill%3D%22%232E855A%22/%3E%3Cpath%20fill%3D%22%23FFF%22%20d%3D%22M10.234%2012.803l3.67%203.253L20.766%2010%2023%2012l-9.096%208L8%2014.789l2.234-2z%22/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  @apply pl-10;
+}
+
+.responsive-container {
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%;
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
