@@ -82,7 +82,7 @@
                     </div>
                   </div>
                 </div>
-                <h3 class="text-center mx-auto view__all mt-16">VIEW ALL NEWS <i class="lni-arrow-right ml-2"></i></h3>
+                <h3 class="text-center mx-auto view__all mt-16">VIEW ALL NEWS</h3>
             </div>
         </div>
       

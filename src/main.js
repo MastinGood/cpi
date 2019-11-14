@@ -30,16 +30,12 @@ export default function (Vue, { router, head, isClient }) {
 
   head.meta.push({
     name: 'author',
-    content: 'Andre Madarang'
+    content: 'Jhon Kenrick Villaces'
   })
 
   head.link.push({
     rel: 'stylesheet',
     href: 'https://fonts.googleapis.com/css?family=Nunito+Sans:400,700'
-  })
-  head.link.push({
-    rel: 'stylesheet',
-    href: 'https://cdn.lineicons.com/1.0.1/LineIcons.min.css'
   })
   head.link.push({
     rel: 'stylesheet',
