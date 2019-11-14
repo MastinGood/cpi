@@ -20,15 +20,15 @@
         </div>
         <div class="flex flex-wrap mb-4 about__section">
           <div class="w-full lg:w-1/2 md:w-full sm:w-full sm:block sm:pb-8 md:mt-10 clearfix">
-            <img src="~/../../static/about_pic.jpg" class="about__pic" >
+            <g-image src="../../static/about_pic.jpg" class="about__pic"/>
           </div>
           <div class="w-full mt-8 lg:w-1/2 lg:pl-30 md:w-full md:pl-10 md:mt-10 sm:w-full sm:block">
             <h2 class="about__title">About Us</h2>
             <p class="about__description mt-6">Lorem ipsum dolor sit amet consectetur 
               adipisicing elit. Rem maxime nam porro 
               possimus fugiat quo molestiae illo.</p>
-            <p class="inline-block mt-6 mx-4 xl:mx-8 lg:mx-8 md:mx-2 sm:ml-4 about__students"><img src="~/../../static/grad.png" class="inline-block mr-6"> 28,000+ Students</p>
-            <p class="inline-block mt-6 mx-4 xl:mx-8 lg:mx-8 md:mx-2 sm:ml-4 about__students"><img src="~/../../static/grad.png" class="inline-block mr-6"> 25,000+ Yearly Graduates</p>
+            <p class="inline-block mt-6 mx-4 xl:mx-8 lg:mx-8 md:mx-2 sm:ml-4 about__students"><g-image src="../../static/grad.png" class="inline-block mr-6"/> 28,000+ Students</p>
+            <p class="inline-block mt-6 mx-4 xl:mx-8 lg:mx-8 md:mx-2 sm:ml-4 about__students"><g-image src="../../static/grad.png" class="inline-block mr-6"/> 25,000+ Yearly Graduates</p>
           </div>
         </div>
      </div>
@@ -40,7 +40,7 @@
               <p class="text-center news__subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
                 <div class="w-full xl:w-1/3 lg:w-1/3 md:w-1/3 sm:w-full xs:w-full mt-20 inline-block card-section">
                   <div class="max-w-sm mx-auto rounded overflow-hidden shadow-lg sm:mx-auto">
-                    <img class="w-full" src="~/../../static/new1.png" alt="Sunset in the mountains">
+                    <g-image class="w-full" src="../../static/new1.png"/>
                     <div class="px-6 py-4 bg__new">
                       <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
                       <p class="text-gray-700 text-base">
@@ -54,7 +54,7 @@
                 </div>
                 <div class="w-full xl:w-1/3 lg:w-1/3 md:w-1/3 sm:w-full xs:w-full mt-20 inline-block card-section">
                   <div class="max-w-sm mx-auto rounded overflow-hidden shadow-lg sm:mx-auto">
-                    <img class="w-full" src="~/../../static/new1.png" alt="Sunset in the mountains">
+                    <g-image class="w-full" src="../../static/new1.png"/>
                     <div class="px-6 py-4 bg__new">
                       <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
                       <p class="text-gray-700 text-base">
@@ -68,7 +68,7 @@
                 </div>
                 <div class="w-full xl:w-1/3 lg:w-1/3 md:w-1/3 sm:w-full xs:full mt-20 inline-block card-section">
                   <div class="max-w-sm mx-auto rounded overflow-hidden shadow-lg sm:mx-auto">
-                    <img class="w-full" src="~/../../static/new1.png" alt="Sunset in the mountains">
+                    <g-image class="w-full" src="../../static/new1.png"/>
                     <div class="px-6 py-4 bg__new">
                       <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
                       <p class="text-gray-700 text-base">
@@ -91,11 +91,10 @@
         <p class="text-center faculty__subtitle mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
         <div class="w-full -mt-20 xl:w-1/2 lg:w-1/2 md:w-1/2 md:-mt-24 sm:w-full sm:-mt-20 xs:w-full mt-20 inline-block test__section">
           
-      
        <ClientOnly>
         <TinySlider :mouse-drag="true" :speed="1000" :loop="true" items="1" :center="true" gutter="20">
           <div class="faculty__test">
-            <img src="~/../../static/faculty.png" height="140" width="140" class="justify-center mx-auto">
+            <g-image src="../../static/faculty.png" height="140" width="140" class="justify-center mx-auto"/>
             <p class="faculty__name text-center mx-auto mt-4">Josh Smith</p>
             <p class="faculty__position text-center mx-auto">Position</p>
             <p class="faculty__desc text-center mx-auto mt-8 px-20">Lorem ipsum dolor sit amet, consect rth
@@ -107,7 +106,7 @@
             obcaecati hic</p>
           </div>
           <div class="faculty__test">
-            <img src="~/../../static/faculty.png" height="140" width="140" class="justify-center mx-auto">
+            <g-image src="../../static/faculty.png" height="140" width="140" class="justify-center mx-auto"/>
             <p class="faculty__name text-center mx-auto mt-4">Josh Smith</p>
             <p class="faculty__position text-center mx-auto">Position</p>
             <p class="faculty__desc text-center mx-auto mt-8 px-20">Lorem ipsum dolor sit amet, consect rth
@@ -118,7 +117,7 @@
             sunt non aut reiciendis, vel recusandae 
             obcaecati hic</p>
           </div><div class="faculty__test">
-            <img src="~/../../static/faculty.png" height="140" width="140" class="justify-center mx-auto">
+            <g-image src="../../static/faculty.png" height="140" width="140" class="justify-center mx-auto"/>
             <p class="faculty__name text-center mx-auto mt-4">Josh Smith</p>
             <p class="faculty__position text-center mx-auto">Position</p>
             <p class="faculty__desc text-center mx-auto mt-8 px-20">Lorem ipsum dolor sit amet, consect rth
@@ -134,7 +133,7 @@
         </div>
         <div class="xl:w-1/2 lg:w-1/2 md:w-1/2 xs:w-full mt-20 inline-block">
           
-            <img class="w-full" src="~/../../static/map.png" >
+            <g-image class="w-full" src="../../static/map.png"/>
          
         </div>
       </div>
@@ -142,7 +141,7 @@
    <div class="flex flex-wrap w-full footer">
      <div class="container mx-auto">
        <div class="xl:w-1/3 lg:w-1/3 md:w-full sm:full pt-16 inline-block align-top">
-           <img class="foot__logo" src="~/../../static/foot_logo.png">
+           <g-image class="foot__logo" src="../../static/foot_logo.png"/>
            <p class="footer__desc mt-8">Lorem ipsum dolor sit amet, consectetur 
           adipisicing elit. Porro consectetur ut hic ipsum et 
           veritatis corrupti. Itaque eius soluta optio 
