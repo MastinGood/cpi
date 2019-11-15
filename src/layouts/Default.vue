@@ -3,8 +3,8 @@
     <header>
       <nav class="container mx-auto flex flex-wrap justify-between items-center py-8">
         <div>
-          <g-link to="/"><g-image src="../../static/logo.png" alt="logo" class="logo1" quality="60"/></g-link>
-          <g-link to="/"><g-image src="../../static/logo-sub.png" alt="logo" class="logo2" quality="60"/></g-link>
+          <g-link to="/"><g-image src="../../static/logo.png" class="logo1" quality="60"/></g-link>
+          <g-link to="/"><g-image src="../../static/logo-sub.png" class="logo2" quality="60"/></g-link>
         </div>
         
         <ul>

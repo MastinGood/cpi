@@ -91,7 +91,7 @@
       <div class="container mx-auto">
         <h1 class="text-center faculty__section mx-auto mt-10">MEET THE FACULTY</h1>
         <p class="text-center faculty__subtitle mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-        <div class="w-full -mt-20 xl:w-1/2 xl:mt-16 lg:w-1/2 md:w-1/2 md:mt-10 sm:w-full sm:mt-4 sm:-mt-20 xs:w-full mt-20 inline-block test__section">
+        <div class="w-full xl:w-1/2 xl:mt-4 lg:w-1/2 md:w-1/2 md:mt-10 sm:w-full sm:mt-4 sm:-mt-10 xs:w-full inline-block test__section">
           
        <ClientOnly>
         <TinySlider :mouse-drag="true" :speed="1000" :loop="true" :autoplay="true" :center="true" :autoplayTimeout="2000" items="1" :controls="false" :autoplayButton="false" gutter="20">

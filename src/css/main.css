@@ -43,7 +43,8 @@
   min-height: 650px!important;
 }
 .tns-outer [aria-controls], .tns-outer [data-action]{
-  display: none;
+  display: none!important;
+  visibility: hidden!important;
 }
 .get__btn:hover{
   background: linear-gradient(to right, #0387cc,#0e4d9c);
@@ -432,7 +433,7 @@ font-size: 40px;
   font-size: 16px;
 }
 .news{
-  height: 1940px;
+  height: 2030px
 }
 .footer{
   height: 650px;
