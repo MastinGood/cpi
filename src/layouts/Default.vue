@@ -3,16 +3,15 @@
     <header>
       <nav class="container mx-auto flex flex-wrap justify-between items-center py-8">
         <div>
-          <g-link v-if="theme === 'theme-light'" to="/"><g-image src="../../static/logo.png" width="300" height="70" alt="logo" /></g-link>
-          <g-link v-else to="/"><g-image src="../../static/logo.png" width="100" height="100" alt="logo" /></g-link>
+          <g-link to="/"><g-image src="../../static/logo.png" alt="logo" class="logo1" quality="60"/></g-link>
+          <g-link to="/"><g-image src="../../static/logo-sub.png" alt="logo" class="logo2" quality="60"/></g-link>
         </div>
         
-        <ul
-        >
+        <ul>
           <li class="flex-wrap">
            
-            <g-image src="../../static/menufinal2.png" @click="showMenu" v-show="menu1" width="50" height="50" style="cursor: pointer"/>
-            <g-image src="../../static/menufinal3.png" v-show="menu2" @click="hideMenu(menu2)" width="50" height="50" style="cursor: pointer; z-index: 1;"/>
+            <g-image src="../../static/menufinal2.png" @click="showMenu" v-show="menu1" width="50" height="50" style="cursor: pointer" quality="75"/>
+            <g-image src="../../static/menufinal3.png" v-show="menu2" @click="hideMenu(menu2)" width="50" height="50" style="cursor: pointer; z-index: 1;" quality="75"/>
            
             <transition name="slide-fade">
             <div class="menu__list clearfix" v-show="isShow">

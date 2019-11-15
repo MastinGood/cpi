@@ -4,12 +4,12 @@
      <div class="flex-wrap container mx-auto head__container w-full px:10 xl:px-20 lg:px:20 md:px-20 sm:px:20">
       <h2 class="sub__head mb-3 mx-auto text-center xl:text-left xl:text-left md:text-left sm:text-left">HELPING YOU GROW</h2>
       <h1 class="main__head text-center xl:text-left xl:text-left md:text-left sm:text-left">Best Technical<br> Vocational Institution</h1>
-      <p class="w-full xl:w-1/2 lg:w-1/2 md:w-1/2 sm:w-1/2 p__head mt-3 mb-8 text-center xl:text-left xl:text-left md:text-left sm:text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, gityre
+      <p class="w-full mt-10 xl:w-1/2 xl:mt-0 lg:w-1/2 lg:mt-0 md:w-1/2 md:mt-0 sm:w-1/2 sm:mt-0 p__head mt-3 mb-8 text-center xl:text-left xl:text-left md:text-left sm:text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, gityre
       sed do eiusmod tempor incididunt ut labore et dolore magna 
       aliqua.
       </p>
       <div class="flex -mt-20 justify-center xl:justify-start lg:justify-start md:justify-start sm:justify-start">
-       <a class="get__btn">Get Started</a>
+       <a class="get__btn xl:mt-16 lg:mt-16 md:mt-16 sm:mt-16">Get Started</a>
       </div>
      </div>
 
@@ -21,7 +21,7 @@
             repudiandae!</p>
         </div>
         <div class="flex flex-wrap mb-4 about__section">
-          <div class="w-full lg:w-1/2 md:w-full sm:w-full sm:block sm:pb-8 md:mt-10 clearfix">
+          <div class="w-full lg:w-1/2 md:w-full sm:w-full sm:-mt-20 sm:block sm:pb-8 md:mt-10 clearfix">
             <g-image src="../../static/about_pic.jpg" class="about__pic"/>
           </div>
           <div class="w-full mt-8 lg:w-1/2 lg:pl-30 md:w-full md:pl-10 md:mt-10 sm:w-full sm:block">
@@ -29,8 +29,8 @@
             <p class="about__description mt-6">Lorem ipsum dolor sit amet consectetur 
               adipisicing elit. Rem maxime nam porro 
               possimus fugiat quo molestiae illo.</p>
-            <p class="inline-block mt-6 mx-4 xl:mx-8 lg:mx-8 md:mx-2 sm:ml-4 about__students"><g-image src="../../static/grad.png" class="inline-block mr-6"/> 28,000+ Students</p>
-            <p class="inline-block mt-6 mx-4 xl:mx-8 lg:mx-8 md:mx-2 sm:ml-4 about__students"><g-image src="../../static/grad.png" class="inline-block mr-6"/> 25,000+ Yearly Graduates</p>
+            <p class="inline-block mt-6 mr-2 xl:mx-8 lg:mx-8 md:mx-2 sm:ml-4 about__students"><g-image src="../../static/grad.png" class="inline-block mr-6"/> 28,000+ Students</p>
+            <p class="inline-block mt-6 mr-2 xl:mx-8 lg:mx-8 md:mx-2 sm:ml-4 about__students"><g-image src="../../static/grad.png" class="inline-block mr-6"/> 25,000+ Yearly Graduates</p>
           </div>
         </div>
      </div>
@@ -99,7 +99,7 @@
             <g-image src="../../static/faculty.png" height="140" width="140" class="justify-center mx-auto" quality="60"/>
             <p class="faculty__name text-center mx-auto mt-4">Josh Smith</p>
             <p class="faculty__position text-center mx-auto">Position</p>
-            <p class="faculty__desc text-center mx-auto mt-8 px-20">Lorem ipsum dolor sit amet, consect rth
+            <p class="faculty__desc text-center mx-auto px:10 mt-8 xl:px-20 lg:px-20 md:px-20 sm:px-20">Lorem ipsum dolor sit amet, consect rth
              adipisicing elit. Magnam repellat aut  neq 
             Doloribus sunt non aut reiciendis, teryen
             figaro vel recusandae obcaecati hic. 
@@ -111,7 +111,7 @@
             <g-image src="../../static/faculty.png" height="140" width="140" class="justify-center mx-auto" quality="60"/>
             <p class="faculty__name text-center mx-auto mt-4">Josh Smith</p>
             <p class="faculty__position text-center mx-auto">Position</p>
-            <p class="faculty__desc text-center mx-auto mt-8 px-20">Lorem ipsum dolor sit amet, consect rth
+            <p class="faculty__desc text-center mx-auto px:10 mt-8 xl:px-20 lg:px-20 md:px-20 sm:px-20">Lorem ipsum dolor sit amet, consect rth
              adipisicing elit. Magnam repellat aut  neq 
             Doloribus sunt non aut reiciendis, teryen
             figaro vel recusandae obcaecati hic. 
@@ -122,7 +122,7 @@
             <g-image src="../../static/faculty.png" height="140" width="140" class="justify-center mx-auto" quality="60"/>
             <p class="faculty__name text-center mx-auto mt-4">Josh Smith</p>
             <p class="faculty__position text-center mx-auto">Position</p>
-            <p class="faculty__desc text-center mx-auto mt-8 px-20">Lorem ipsum dolor sit amet, consect rth
+            <p class="faculty__desc text-center mx-auto px:10 mt-8 xl:px-20 lg:px-20 md:px-20 sm:px-20">Lorem ipsum dolor sit amet, consect rth
              adipisicing elit. Magnam repellat aut  neq 
             Doloribus sunt non aut reiciendis, teryen
             figaro vel recusandae obcaecati hic. 
@@ -142,7 +142,7 @@
     </div>
    <div class="flex flex-wrap w-full footer">
      <div class="container mx-auto">
-       <div class="xl:w-1/3 lg:w-1/3 md:w-full sm:full pt-16 inline-block align-top">
+       <div class="-mt-4 xl:w-1/3 lg:w-1/3 md:w-full sm:full pt-16 inline-block align-top">
            <g-image class="foot__logo" src="../../static/foot_logo.png" quality="60"/>
            <p class="footer__desc mt-8">Lorem ipsum dolor sit amet, consectetur 
           adipisicing elit. Porro consectetur ut hic ipsum et 

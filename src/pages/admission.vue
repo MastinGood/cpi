@@ -61,7 +61,7 @@
    </div>
    <div class="flex flex-wrap w-full footer">
      <div class="container mx-auto">
-       <div class="xl:w-1/3 lg:w-1/3 md:w-full sm:full pt-16 inline-block align-top">
+       <div class="-mt-4 xl:w-1/3 lg:w-1/3 md:w-full sm:full pt-16 inline-block align-top">
            <g-image class="foot__logo" src="../../static/foot_logo.png" quality="60"/>
            <p class="footer__desc mt-8">Lorem ipsum dolor sit amet, consectetur 
           adipisicing elit. Porro consectetur ut hic ipsum et 
@@ -80,12 +80,13 @@
           </div>  
         </div>  
        </div>
-        <div class="w-full mt-4 xl:w-1/3 lg:w-1/3 md:w-1/2 md:pt-8 sm:w-1/2 xl:pt-16 lg:pt-16 md:pt-16 sm:pt-16 inline-block align-top">
+       <div class="w-full mt-4 xl:w-1/3 lg:w-1/3 md:w-1/2 md:pt-8 sm:w-1/2 xl:pt-16 lg:pt-16 md:pt-16 sm:pt-16 inline-block align-top">
          <div class="w-full"><p class="footer__menu_title text-left xl:text-right lg:text-right md:text-right sm:text-right">Menu</p></div>
          <ul class="flex xl:flex-col lg:flex-col md:flex-col sm:flex-col list-inside sm:list-outside md:list-inside lg:list-outside xl:list-inside text-right">
           <li class="m-2 xl:my-2 lg:my-2 md:my-2 sm:my-2"><g-link class="footer__links" to="/">Home</g-link></li>
           <li class="m-2 xl:my-2 lg:my-2 md:my-2 sm:my-2"><g-link class="footer__links" to="/about">About Us</g-link></li>
           <li class="m-2 xl:my-2 lg:my-2 md:my-2 sm:my-2"><g-link class="footer__links" to="/admission">Admission</g-link></li>
+         
         </ul>
        </div>
      </div>
