@@ -11,7 +11,7 @@
           <li class="flex-wrap">
            
             <g-image src="../../static/menufinal2.png" @click="showMenu" v-show="menu1" width="50" height="50" style="cursor: pointer" quality="75"/>
-            <g-image src="../../static/menufinal3.png" v-show="menu2" @click="hideMenu(menu2)" width="50" height="50" style="cursor: pointer; z-index: 1;" quality="75"/>
+            <g-image src="../../static/menufinal3.png" v-show="menu2" @click="hideMenu(menu2)" width="50" height="50" style="cursor: pointer;"/>
            
             <transition name="slide-fade">
             <div class="menu__list clearfix" v-show="isShow">
