@@ -22,7 +22,7 @@
         </div>
         <div class="flex flex-wrap mb-4 about__section">
           <div class="w-full lg:w-1/2 md:w-full sm:w-full sm:-mt-20 sm:block sm:pb-8 md:mt-10 clearfix">
-            <g-image src="../../static/about_pic.jpg" class="about__pic"/>
+            <g-image src="../../static/about_pic.jpg" class="about__pic" alt="About Us"/>
           </div>
           <div class="w-full mt-8 lg:w-1/2 lg:pl-30 md:w-full md:pl-10 md:mt-10 sm:w-full sm:block">
             <h2 class="about__title">About Us</h2>
@@ -42,7 +42,7 @@
               <p class="text-center news__subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
                 <div class="w-full xl:w-1/3 lg:w-1/3 md:w-1/3 sm:w-full xs:w-full mt-20 inline-block card-section">
                   <div class="max-w-sm mx-auto rounded overflow-hidden shadow-lg sm:mx-auto">
-                    <g-image class="w-full" src="../../static/new1.png" quality="60"/>
+                    <g-image class="w-full" src="../../static/new1.png" quality="60" alt="News"/>
                     <div class="px-6 py-4 bg__new">
                       <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
                       <p class="text-gray-700 text-base">
@@ -56,7 +56,7 @@
                 </div>
                 <div class="w-full xl:w-1/3 lg:w-1/3 md:w-1/3 sm:w-full xs:w-full mt-20 inline-block card-section">
                   <div class="max-w-sm mx-auto rounded overflow-hidden shadow-lg sm:mx-auto">
-                    <g-image class="w-full" src="../../static/new1.png" quality="60"/>
+                    <g-image class="w-full" src="../../static/new1.png" quality="60" alt="News"/>
                     <div class="px-6 py-4 bg__new">
                       <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
                       <p class="text-gray-700 text-base">
@@ -70,7 +70,7 @@
                 </div>
                 <div class="w-full xl:w-1/3 lg:w-1/3 md:w-1/3 sm:w-full xs:full mt-20 inline-block card-section">
                   <div class="max-w-sm mx-auto rounded overflow-hidden shadow-lg sm:mx-auto">
-                    <g-image class="w-full" src="../../static/new1.png" quality="60"/>
+                    <g-image class="w-full" src="../../static/new1.png" quality="60" alt="News"/>
                     <div class="px-6 py-4 bg__new">
                       <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
                       <p class="text-gray-700 text-base">
@@ -96,7 +96,7 @@
        <ClientOnly>
         <TinySlider :mouse-drag="true" :speed="1000" :loop="true" :autoplay="true" :center="true" :autoplayTimeout="2000" items="1" :controls="false" :autoplayButton="false" gutter="20">
           <div class="faculty__test">
-            <g-image src="../../static/faculty.png" height="140" width="140" class="justify-center mx-auto" quality="60"/>
+            <g-image src="../../static/faculty.png" height="140" width="140" alt="Faculty" class="justify-center mx-auto" quality="60"/>
             <p class="faculty__name text-center mx-auto mt-4">Josh Smith</p>
             <p class="faculty__position text-center mx-auto">Position</p>
             <p class="faculty__desc text-center mx-auto px:10 mt-8 xl:px-20 lg:px-20 md:px-20 sm:px-20">Lorem ipsum dolor sit amet, consect rth
@@ -108,7 +108,7 @@
             obcaecati hic</p>
           </div>
           <div class="faculty__test">
-            <g-image src="../../static/faculty.png" height="140" width="140" class="justify-center mx-auto" quality="60"/>
+            <g-image src="../../static/faculty.png" height="140" width="140" alt="Faculty" class="justify-center mx-auto" quality="60"/>
             <p class="faculty__name text-center mx-auto mt-4">Josh Smith</p>
             <p class="faculty__position text-center mx-auto">Position</p>
             <p class="faculty__desc text-center mx-auto px:10 mt-8 xl:px-20 lg:px-20 md:px-20 sm:px-20">Lorem ipsum dolor sit amet, consect rth
@@ -119,7 +119,7 @@
             sunt non aut reiciendis, vel recusandae 
             obcaecati hic</p>
           </div><div class="faculty__test">
-            <g-image src="../../static/faculty.png" height="140" width="140" class="justify-center mx-auto" quality="60"/>
+            <g-image src="../../static/faculty.png" height="140" width="140" alt="Faculty" class="justify-center mx-auto" quality="60"/>
             <p class="faculty__name text-center mx-auto mt-4">Josh Smith</p>
             <p class="faculty__position text-center mx-auto">Position</p>
             <p class="faculty__desc text-center mx-auto px:10 mt-8 xl:px-20 lg:px-20 md:px-20 sm:px-20">Lorem ipsum dolor sit amet, consect rth
@@ -135,7 +135,7 @@
         </div>
         <div class="xl:w-1/2 lg:w-1/2 md:w-1/2 xs:w-full mt-20 inline-block">
           
-            <g-image class="w-full" src="../../static/map.png" quality="60"/>
+            <g-image class="w-full" src="../../static/map.png" alt="Located" quality="60"/>
          
         </div>
       </div>
@@ -143,7 +143,7 @@
    <div class="flex flex-wrap w-full footer">
      <div class="container mx-auto">
        <div class="-mt-4 xl:w-1/3 lg:w-1/3 md:w-full sm:full pt-16 inline-block align-top">
-           <g-image class="foot__logo" src="../../static/foot_logo.png" quality="60"/>
+           <g-image class="foot__logo" src="../../static/foot_logo.png" quality="60" alt="Footer Logo"/>
            <p class="footer__desc mt-8">Lorem ipsum dolor sit amet, consectetur 
           adipisicing elit. Porro consectetur ut hic ipsum et 
           veritatis corrupti. Itaque eius soluta optio 

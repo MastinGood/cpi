@@ -3,15 +3,15 @@
     <header>
       <nav class="container mx-auto flex flex-wrap justify-between items-center py-8">
         <div>
-          <g-link to="/"><g-image src="../../static/logo.png" class="logo1" quality="60"/></g-link>
-          <g-link to="/"><g-image src="../../static/logo-sub.png" class="logo2" quality="60"/></g-link>
+          <g-link to="/"><g-image src="../../static/logo.png" alt="Logo" class="logo1" quality="60"/></g-link>
+          <g-link to="/"><g-image src="../../static/logo-sub.png" alt="Logo" class="logo2" quality="60"/></g-link>
         </div>
         
         <ul>
           <li class="flex-wrap">
            
-            <g-image src="../../static/menufinal2.png" @click="showMenu" v-show="menu1" width="50" height="50" style="cursor: pointer" quality="75"/>
-            <g-image src="../../static/menufinal3.png" v-show="menu2" @click="hideMenu(menu2)" width="50" height="50" style="cursor: pointer;"/>
+            <g-image src="../../static/menufinal2.png" @click="showMenu" alt="Menu" v-show="menu1" width="50" height="50" style="cursor: pointer" quality="75"/>
+            <g-image src="../../static/menufinal3.png" v-show="menu2" alt="Menu" @click="hideMenu(menu2)" width="50" height="50" style="cursor: pointer;"/>
            
             <transition name="slide-fade">
             <div class="menu__list clearfix" v-show="isShow">
