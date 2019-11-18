@@ -40,52 +40,10 @@
             <div class="container mx-auto">
               <h1 class="text-center news__title mx-auto mt-8">Latest News</h1>
               <p class="text-center news__subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-                <div class="w-full xl:w-1/3 lg:w-1/3 md:w-1/3 sm:w-full xs:w-full mt-20 inline-block card-section">
-                  <div class="max-w-sm mx-auto rounded overflow-hidden shadow-lg sm:mx-auto">
-                    <g-image class="w-full" src="../../static/new1.png" quality="60" alt="News"/>
-                    <div class="px-6 py-4 bg__new">
-                      <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
-                      <p class="text-gray-700 text-base">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
-                      </p>
-                      <p class="text-base mt-6 mb-4">
-                        October  22, 2019
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="w-full xl:w-1/3 lg:w-1/3 md:w-1/3 sm:w-full xs:w-full mt-20 inline-block card-section">
-                  <div class="max-w-sm mx-auto rounded overflow-hidden shadow-lg sm:mx-auto">
-                    <g-image class="w-full" src="../../static/new1.png" quality="60" alt="News"/>
-                    <div class="px-6 py-4 bg__new">
-                      <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
-                      <p class="text-gray-700 text-base">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
-                      </p>
-                      <p class="text-base mt-6 mb-4">
-                        October  22, 2019
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="w-full xl:w-1/3 lg:w-1/3 md:w-1/3 sm:w-full xs:full mt-20 inline-block card-section">
-                  <div class="max-w-sm mx-auto rounded overflow-hidden shadow-lg sm:mx-auto">
-                    <g-image class="w-full" src="../../static/new1.png" quality="60" alt="News"/>
-                    <div class="px-6 py-4 bg__new">
-                      <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
-                      <p class="text-gray-700 text-base">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
-                      </p>
-                      <p class="text-base mt-6 mb-4">
-                        October  22, 2019
-                      </p>
-                    </div>
-                  </div>
-                </div>
+                <NewsList v-for="edge in $page.allPosts.edges" :key="edge.node.id" :post="edge.node" />
                 <h3 class="text-center mx-auto view__all mt-16">VIEW ALL NEWS</h3>
             </div>
-        </div>
-      
+        </div>  
     </div>
     <div class="flex flex-wrap w-full meet__faculty">
       <div class="container mx-auto">
@@ -157,7 +115,7 @@
         <div class="flex flex-wrap items-stretch w-full mb-4 relative mt-4">
           <input type="text" name="email" class="flex-shrink flex-grow flex-auto leading-normal w-px flex-1 border h-10 border-grey-light rounded rounded-r-none px-3 relative" placeholder="Email Address">
           <div class="flex -mr-px" style="background-color: #fac71d!important;color:#154071; font-family:ont-family: 'Open Sans', sans-serif;">
-            <a class="flex items-center leading-normal rounded rounded-l-none border border-l-0 border-grey-light px-3 whitespace-no-wrap text-grey-dark text-sm">Submit</a>
+            <a class="flex items-center leading-normal rounded rounded-l-none border border-l-0 border-grey-light px-3 whitespace-no-wrap text-sm" style="color: #fff;">Submit</a>
           </div>  
         </div>  
        </div>
@@ -176,13 +134,29 @@
 
   </Layout>
 </template>
+<page-query>
+query{
+  allPosts(sortBy: "date", order : DESC, perPage: 3){
+  totalCount
+    edges {
+      node {
+        image
+        title
+        description
+        date (format: "MMMM D  YYYY")
+        path
+      }
+    }
+  }
+}
+</page-query>
 
 <script>
-
-
+import NewsList from '~/templates/NewsList.vue';
 export default {
   components: { 
-    TinySlider: () => import('vue-tiny-slider')
+    TinySlider: () => import('vue-tiny-slider'),
+    NewsList,
    },
   metaInfo: {
     title: 'Home'

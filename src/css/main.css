@@ -393,7 +393,7 @@ a {
 }
 
 a:hover {
-  @apply text-green-800;
+  color: #3d87db;
 }
 .container-inner {
   padding-left: 1rem;

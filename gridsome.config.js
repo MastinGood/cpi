@@ -22,6 +22,13 @@ module.exports = {
   },
   plugins: [
     {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: 'content/posts/**/*.md',
+        typeName: 'Posts'
+      }
+    },
+    {
       use: '@gridsome/plugin-sitemap',
       options: {
         cacheTime: 600000, // default
