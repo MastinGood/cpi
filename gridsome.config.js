@@ -15,10 +15,10 @@ if (process.env.NODE_ENV === 'production') postcssPlugins.push(purgecss())
 
 module.exports = {
   siteName: 'Cataingan Polytechnic Institute',
-  siteDescription: 'Best technical vocational institute',
+  siteDescription: 'Best Technical Vocational Institute',
   siteUrl: 'https://gridsome-portfolio-starter.netlify.com',
   icon: {
-    favicon: './src/fav2.png',
+    favicon: './src/favicon.png',
   },
   plugins: [
     {

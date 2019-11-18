@@ -29,8 +29,8 @@
             <p class="about__description mt-6">Lorem ipsum dolor sit amet consectetur 
               adipisicing elit. Rem maxime nam porro 
               possimus fugiat quo molestiae illo.</p>
-            <p class="inline-block mt-6 mr-2 xl:mx-8 lg:mx-8 md:mx-2 sm:ml-4 about__students"><g-image src="../../static/grad.png" class="inline-block mr-6"/> 28,000+ Students</p>
-            <p class="inline-block mt-6 mr-2 xl:mx-8 lg:mx-8 md:mx-2 sm:ml-4 about__students"><g-image src="../../static/grad.png" class="inline-block mr-6"/> 25,000+ Yearly Graduates</p>
+            <p class="inline-block mt-6 mr-2 xl:mx-8 lg:mx-8 md:mx-2 sm:ml-4 about__students"><g-image src="../../static/grad.png" class="inline-block mr-6" alt="Students"/> 28,000+ Students</p>
+            <p class="inline-block mt-6 mr-2 xl:mx-8 lg:mx-8 md:mx-2 sm:ml-4 about__students"><g-image src="../../static/grad.png" class="inline-block mr-6" alt="Year Graduates"/> 25,000+ Yearly Graduates</p>
           </div>
         </div>
      </div>

@@ -40,15 +40,15 @@
         </div>
         <ul class="flex items-center"> 
           <li class="mr-8">
-            <a href="#" target="_blank" class="text-white hover:text-gray-400">
+            <g-link to="/" target="_blank" class="text-white hover:text-gray-400">
               Terms
-            </a>
+            </g-link>
           </li>
 
           <li class="mr-8">
-            <a href="#" target="_blank" class="text-white hover:text-gray-400">
+            <g-link to="/" target="_blank" class="text-white hover:text-gray-400">
               Sitemap
-            </a>
+            </g-link>
           </li>
 
         </ul>
