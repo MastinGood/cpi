@@ -217,7 +217,7 @@ background: linear-gradient(to right, #0e4d9c, #0387cc);
 .footer__links{
   font-weight: 400;
   font-size: 18px;
-  color: #a5a5a6;
+  color: #fff;
 }
 .about__section{
   margin-top: 180px;
@@ -267,7 +267,7 @@ background: linear-gradient(to right, #0e4d9c, #0387cc);
 }
 .footer__desc{
   font-weight: 400;
-  color: #a5a5a6;
+  color: #fff;
   letter-spacing: 1px;
   line-height: 1.4;
 }
@@ -568,8 +568,6 @@ font-size: 40px;
 }
 .logo1{
   display: block;
-  width: 300px;
-  height: 70px;
 }
 .head__container{
   margin-top: 150px;
