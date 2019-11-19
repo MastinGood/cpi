@@ -41,7 +41,9 @@
               <h1 class="text-center news__title mx-auto mt-8">Latest News</h1>
               <p class="text-center news__subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
                 <NewsList v-for="edge in $page.allPosts.edges" :key="edge.node.id" :post="edge.node" />
-                <h3 class="text-center mx-auto view__all mt-16">VIEW ALL NEWS</h3>
+                <div class="container mx-auto text-center mt-10">
+                  <g-link to="/news" class="text-center mx-auto view__all mt-16">VIEW ALL NEWS</g-link>
+                </div>
             </div>
         </div>  
     </div>
@@ -157,6 +159,7 @@ export default {
   components: { 
     TinySlider: () => import('vue-tiny-slider'),
     NewsList,
+
    },
   metaInfo: {
     title: 'Home'

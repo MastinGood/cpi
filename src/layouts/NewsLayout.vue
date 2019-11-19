@@ -1,7 +1,7 @@
 <template>
-  <div class="content-wrapper font-sans text-copy-primary leading-normal flex flex-col min-h-screen" :class="getClass(this.$route)">
-    <header>
-      <nav class="container mx-auto flex flex-wrap justify-between items-center py-8">
+  <div class="content-wrapper font-sans text-copy-primary leading-normal flex flex-col min-h-screen">
+    <header class="news__header py-4">
+      <nav class="container mx-auto flex flex-wrap justify-between items-center">
         <div>
           <g-link to="/"><g-image src="../../static/logo.png" alt="Logo" class="logo1" quality="60"/></g-link>
           <g-link to="/"><g-image src="../../static/logo-sub.png" alt="Logo" class="logo2" quality="60"/></g-link>
@@ -92,23 +92,6 @@ export default {
       this.menu2 = false;
       this.isShow = false;
     },
-    getClass(route){
-      if(route.path === '/'){
-        console.log()
-        return 'home__banner';
-      }
-      else if(route.path === '/admission')
-      {
-        return 'home__admission';
-      }
-      else if(route.path === '/news')
-      {
-        return 'home__news';
-      }
-      else{
-        return 'home__about';
-      }
-    }
   }
 }
 </script>

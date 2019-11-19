@@ -34,6 +34,15 @@
   z-index: 0!important;
   min-height: 650px!important;
 }
+.home__news{
+  background-image: url(../../static/newsbg.jpg); 
+  background-position: center center; 
+  background-size: cover;
+  width: 100%;
+  z-index: 0!important;
+  height: 500px;
+  min-height: 500px!important;
+}
 .home__about{
   background-image: url(../../static/mission.png); 
   background-position: center center; 
@@ -98,6 +107,12 @@
   font-size: 16px;
   color: #4a4a4a;
 }
+.news__header{
+  background-color: #154071;
+}
+.readmore{
+  color: #154071!important;
+}
 .miss__desc{
   font-weight: 700;
   color: #4a4a4a;
@@ -154,6 +169,11 @@ nav a{
 .admission__title{
   font-weight: 800;
   color: #fff;
+  letter-spacing: 1.4px;
+}
+.news__post__title{
+  font-weight: 800;
+  color: #154071;
   letter-spacing: 1.4px;
 }
 .process__section{
@@ -463,7 +483,7 @@ font-size: 40px;
 .sub__head{
   font-size:16px;
  }
- .admission__title {
+ .admission__title, .new__post__title{
   font-size: 42px;
 }
 .admin__process{
@@ -563,7 +583,7 @@ font-size: 40px;
 .tab{
   width: 100%;
 }
-.admission__title{
+.admission__title, .news__post__title{
   font-size: 48px;
 }
 .logo2{
@@ -648,7 +668,7 @@ font-size: 40px;
 .tab{
   width: 100%;
 }
-.admission__title{
+.admission__title, .news__post__title{
   font-size: 50px;
 }
 .welcome{
@@ -704,7 +724,7 @@ font-size: 40px;
 .tab{
   width: 70%;
 }
-.admission__title{
+.admission__title, .news__post__title{
   font-size: 56px;
 }
 
@@ -738,7 +758,7 @@ font-size: 40px;
 .tab{
   width: 70%;
 }
-.admission__title{
+.admission__title, .news__post__title{
   font-size: 60px;
 }
 }
@@ -750,7 +770,7 @@ font-size: 40px;
 .tab{
   width: 50%;
 }
-.admission__title{
+.admission__title, .news__post__title{
   font-size: 66px;
 }
 }
