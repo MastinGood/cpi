@@ -1,5 +1,5 @@
 ---
-title: The Coldest Sunset
+title: The Coldest Sunsets
 date: '2019-05-04'
 image: /uploads/untitled-1.jpg
 description: >-
