@@ -136,7 +136,7 @@
 </template>
 <page-query>
 query{
-  allPosts(sortBy: "date", order : DESC, perPage: 3){
+  allPosts(sortBy: "date", order : ASC, perPage: 3){
   totalCount
     edges {
       node {
