@@ -1,7 +1,7 @@
 <template>
 	<div class="w-full xl:w-1/3 lg:w-1/3 md:w-1/3 sm:w-full xs:w-full mt-20 inline-block card-section">
       <div class="max-w-sm mx-auto rounded overflow-hidden shadow-lg sm:mx-auto">
-        <g-image class="w-full news__image" :src="post.image" quality="60" alt="News"/>
+        <g-image class="w-full news__image" :src="post.image" quality="50" alt="News"/>
         <div class="px-6 py-4 bg__new">
           <div class="font-bold text-xl mb-2">{{post.title}}</div>
           <p class="text-gray-700 text-base" v-html="post.description" />
