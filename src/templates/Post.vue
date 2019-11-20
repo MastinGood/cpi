@@ -8,7 +8,7 @@
       <div class="markdown-body my-8">{{$page.post.description}}</div>
       <div class="mb-8">
         <br>
-        <g-link to="/news" class="font-bold uppercase">&larr; Back to News</g-link>
+        <g-link to="/news" aria-label="Back to news" class="font-bold uppercase">&larr; Back to News</g-link>
       </div>
      </div>
     </div>

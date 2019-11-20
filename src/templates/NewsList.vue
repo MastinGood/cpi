@@ -3,7 +3,7 @@
       <div class="max-w-sm mx-auto rounded overflow-hidden shadow-lg sm:mx-auto">
         <g-image class="w-full news__image" :src="post.image" quality="50" alt="News"/>
         <div class="px-6 py-4 bg__new">
-          <div class="font-bold text-xl mb-2">{{post.title}}</div>
+          <g-link :to="post.path" class="font-bold text-xl mb-2 title_news">{{post.title}}</g-link>
           <p class="text-gray-700 text-base">{{post.description.substring(0, 140)+"..."}}</p>
           <p class="text-base mt-6 mb-4" v-html="post.date" />
         </div>
