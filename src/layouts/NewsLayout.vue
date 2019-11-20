@@ -1,6 +1,6 @@
 <template>
   <div class="content-wrapper font-sans text-copy-primary leading-normal flex flex-col min-h-screen">
-    <header class="news__header py-4">
+    <header class="news__header py-2">
       <nav class="container mx-auto flex flex-wrap justify-between items-center">
         <div>
           <g-link to="/"><g-image src="../../static/logo.png" alt="Logo" class="logo1" quality="60"/></g-link>

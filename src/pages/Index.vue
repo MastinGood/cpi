@@ -40,7 +40,7 @@
             <div class="container mx-auto">
               <h1 class="text-center news__title mx-auto mt-8">Latest News</h1>
               <p class="text-center news__subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-                <NewsList v-for="edge in $page.allPosts.edges" :key="edge.node.id" :post="edge.node" />
+                <NewsList v-for="edge in $page.allPost.edges" :key="edge.node.id" :post="edge.node" />
                 <div class="container mx-auto text-center mt-10">
                   <g-link to="/news" class="text-center mx-auto view__all mt-16">VIEW ALL NEWS</g-link>
                 </div>
@@ -138,7 +138,7 @@
 </template>
 <page-query>
 query{
-  allPosts(sortBy: "date", order : ASC, perPage: 3){
+  allPost(sortBy: "date", order : ASC, perPage: 3){
   totalCount
     edges {
       node {

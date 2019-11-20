@@ -1,12 +1,12 @@
 <template>
   <NewsLayout>
  
-     <div class="flex flex-row container mx-auto head__container">
+     <div class="flex flex-row container mx-auto head__container -mt-20">
       <h1 class="news__post__title text-center mx-auto">All News</h1>
      </div>
      <div class="container mx-auto mt-20">
      <div class="w-3/4 mx-auto">
-        <div v-for="post in $page.allPosts.edges" :key="post.node.id" class="post border-gray-400 border-b mb-12">
+        <div v-for="post in $page.posts.edges" :key="post.node.id" class="post border-gray-400 border-b mb-12">
         <div class="flex-wrap lg:flex md:flex sm:flex-wrap">
         <div class="w-full lg:w-1/4 md:w-full sm:w-full">
           <g-image class="w-full news__image" :src="post.node.image" quality="50" alt="News"/>
@@ -19,7 +19,7 @@
         </div>
 
         <div class="text-lg mb-4 w-full">
-          {{ post.node.description }}
+          {{ post.node.description.substring(0, 180)+"..." }}
         </div>
 
           <div class="mb-8">
@@ -29,7 +29,12 @@
         </div>
          <hr class="mt-4">
       </div>
-
+       <pagination-posts
+        v-if="$page.posts.pageInfo.totalPages > 1"
+        base="/news"
+        :totalPages="$page.posts.pageInfo.totalPages"
+        :currentPage="$page.posts.pageInfo.currentPage"
+      />
      </div>
     </div>
     <div class="flex flex-wrap w-full footer">
@@ -66,25 +71,34 @@
    </div>
   </NewsLayout>
 </template>
+
 <page-query>
-query{
-  allPosts(sortBy: "date", order : ASC){
+query Post ($page: Int){
+  posts : allPost(sortBy: "date", order : ASC, perPage: 10, page: $page) @paginate{
   totalCount
-    edges {
-      node {
-        image
-        title
-        description
-        date (format: "MMMM D  YYYY")
-        path
-      }
+  pageInfo{
+  totalPages
+  currentPage
+  }
+  edges {
+    node {
+      image
+      title
+      description
+      date (format: "MMMM D  YYYY")
+      path
     }
+  }
   }
 }
 </page-query>
 
 <script>
+import PaginationPosts from '../components/PaginationPosts'
 export default {
+  components: {
+     PaginationPosts
+  },
  metaInfo: {
     title: 'All News'
   },

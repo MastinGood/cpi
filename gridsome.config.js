@@ -25,9 +25,12 @@ module.exports = {
       use: '@gridsome/source-filesystem',
       options: {
         path: 'content/posts/**/*.md',
-        typeName: 'Posts'
+        typeName: 'Post',
+        route: '/posts/:title'
       }
     },
+
+
     {
       use: '@gridsome/plugin-sitemap',
       options: {
@@ -35,6 +38,7 @@ module.exports = {
       }
     },
   ],
+
   transformers: {
     remark: {
       plugins: [

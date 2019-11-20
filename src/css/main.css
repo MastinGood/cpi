@@ -412,7 +412,7 @@ background: linear-gradient(to right, #0e4d9c, #0387cc);
 }
 
 a {
-  @apply text-green-700 font-bold;
+  color: #3d87db
 }
 
 a:hover {
