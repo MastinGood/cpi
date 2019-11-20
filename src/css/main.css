@@ -51,6 +51,14 @@
   z-index: 0!important;
   min-height: 650px!important;
 }
+.img__post{
+  max-height: 500px!important;
+}
+.bg__submit{
+  background-color: ##154071!important;
+  color:#154071;
+  font-family:'Open Sans', sans-serif;
+}
 .tns-outer [aria-controls], .tns-outer [data-action]{
   display: none!important;
   visibility: hidden!important;

@@ -115,9 +115,9 @@
          <p class="footer__desc mt-4">Lorem ipsum dolor sit amet, consectetur 
         adipisicing elit.</p>
         <div class="flex flex-wrap items-stretch w-full mb-4 relative mt-4">
-          <input type="text" name="email" class="flex-shrink flex-grow flex-auto leading-normal w-px flex-1 border h-10 border-grey-light rounded rounded-r-none px-3 relative" placeholder="Email Address">
-          <div class="flex -mr-px" style="background-color: #fac71d!important;color:#154071; font-family:ont-family: 'Open Sans', sans-serif;">
-            <a class="flex items-center leading-normal rounded rounded-l-none border border-l-0 border-grey-light px-3 whitespace-no-wrap text-sm" style="color: #fff;">Submit</a>
+          <input type="text" name="email" class="flex-shrink flex-grow flex-auto leading-normal w-px flex-1 border h-10 border-grey-light rounded rounded-r-none px-3 relative" placeholder="Email Address" aria-label="Email">
+          <div class="flex -mr-px bg__submit">
+            <a class="flex items-center leading-normal rounded rounded-l-none border border-l-0 border-grey-light px-3 whitespace-no-wrap text-sm" aria-label="Submit" style="color: #fff;">Submit</a>
           </div>  
         </div>  
        </div>

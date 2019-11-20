@@ -16,9 +16,9 @@
             <transition name="slide-fade">
             <div class="menu__list clearfix shadow-2xl" v-show="isShow">
               <ul class="list-none">
-                <li><g-link to="/" class="menu__link">Home</g-link></li>
-                <li><g-link to="/admission" class="menu__link">Admission</g-link></li>
-                <li><g-link to="/about" class="menu__link">About</g-link></li>
+                <li><g-link to="/" class="menu__link" aria-label="Home">Home</g-link></li>
+                <li><g-link to="/admission" class="menu__link" aria-label="Admission">Admission</g-link></li>
+                <li><g-link to="/about" class="menu__link" aria-label="About">About</g-link></li>
               </ul>
             </div>
           </transition>

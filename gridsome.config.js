@@ -29,8 +29,6 @@ module.exports = {
         route: '/posts/:title'
       }
     },
-
-
     {
       use: '@gridsome/plugin-sitemap',
       options: {
