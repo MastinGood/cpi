@@ -5,7 +5,7 @@
       <h1 class="news__post__title text-center mx-auto">All News</h1>
      </div>
      <div class="container mx-auto mt-20">
-     <div class="w-3/4 mx-auto">
+     <div class="w-full lg:w-3/4 md:w-3/4 sm:w-3/4  mx-auto">
         <div v-for="post in $page.posts.edges" :key="post.node.id" class="post border-gray-400 border-b mb-12">
         <div class="flex-wrap lg:flex md:flex sm:flex-wrap">
         <div class="w-full lg:w-1/4 md:w-full sm:w-full">
