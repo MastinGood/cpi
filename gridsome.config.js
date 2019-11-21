@@ -27,7 +27,7 @@ module.exports = {
         path: 'content/posts/**/*.md',
         typeName: 'Post',
         route: '/posts/:title'
-      }
+      },
     },
     {
       use: '@gridsome/plugin-sitemap',

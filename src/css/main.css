@@ -59,7 +59,7 @@
   color:#154071;
   font-family:'Open Sans', sans-serif;
 }
-.tns-outer [aria-controls], .tns-outer [data-action]{
+.tns-outer [data-action]{
   display: none!important;
   visibility: hidden!important;
 }
