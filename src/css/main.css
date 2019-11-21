@@ -450,6 +450,9 @@ a:hover {
 .process__section{
   margin-top: 240px;
 }
+.markdown-body{
+  font-size: 16px!important;
+}
 .logo2{
   display: block;
   height: 60px;
@@ -474,7 +477,7 @@ font-size: 40px;
   font-size: 16px;
 }
 .news{
-  height: 2030px
+  height: 1740px
 }
 .footer{
   height: 650px;
@@ -501,7 +504,7 @@ font-size: 40px;
 .sub__head{
   font-size:16px;
  }
- .admission__title, .new__post__title{
+ .admission__title, .news__post__title{
   font-size: 42px;
 }
 .admin__process{
@@ -545,6 +548,9 @@ font-size: 40px;
  .process__desc{
   font-size: 18px;
  }
+ .markdown-body{
+  font-size: 18px!important;
+}
  .year__title{
   font-size: 38px;
  }
@@ -571,8 +577,8 @@ font-size: 40px;
   font-size:20px;
  }
  .news{
-  min-height: 937px;
-  height: 2150px;
+  min-height: 1830px;
+   height: 1830px;
   background-color: #154071;
 }
 .meet__faculty{
@@ -649,6 +655,9 @@ font-size: 40px;
   .home__banner{
   height: 900px;
  }
+  .markdown-body{
+  font-size: 20px!important;
+}
  .history__title{
   font-size: 60px;
  }
@@ -656,8 +665,8 @@ font-size: 40px;
   height: 500px;
  }
  .news{
-  min-height: 937px;
-  height: 2100px;
+  min-height: 1830px;
+  height: 1830px;
   background-color: #154071;
 }
 .meet__faculty{
@@ -715,8 +724,8 @@ font-size: 40px;
   height: 500px;
  }
  .news{
-  min-height: 937px;
-  height: 937px;
+  min-height: 760px;
+  height: 760px;
   background-color: #154071;
 }
 .meet__faculty{
@@ -757,8 +766,8 @@ font-size: 40px;
   height: 350px;
  }
  .news{
-  min-height: 937px;
-  height: 937px;
+  min-height: 800px;
+  height: 800px;
   background-color: #154071;
 }
 .meet__faculty{
