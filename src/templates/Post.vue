@@ -6,6 +6,7 @@
       <div class="text-xl text-gray-600 mb-4">{{ $page.post.date }}</div>
       <g-image :src="$page.post.image" class="w-full img__post"/>
       <div class="markdown-body my-8">{{$page.post.description}}</div>
+      <div class="markdown-body my-8" v-html="$page.post.content"/>
       <div class="mb-8">
         <br>
         <g-link to="/news" aria-label="Back to news" class="font-bold uppercase">&larr; Back to News</g-link>
@@ -21,6 +22,7 @@ query Post ($path: String!) {
     date (format: "MMMM D, Y")
     description
     image
+    content
   }
 }
 </page-query>
