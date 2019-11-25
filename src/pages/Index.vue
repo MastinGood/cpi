@@ -9,7 +9,7 @@
       aliqua.
       </p>
       <div class="flex -mt-20 justify-center xl:justify-start lg:justify-start md:justify-start sm:justify-start">
-       <a class="get__btn xl:mt-16 lg:mt-16 md:mt-16 sm:mt-16">Get Started</a>
+       <g-link to="/admission" class="get__btn xl:mt-16 lg:mt-16 md:mt-16 sm:mt-16">Get Started</g-link>
       </div>
      </div>
 
@@ -51,44 +51,15 @@
       <div class="container mx-auto">
         <h1 class="text-center faculty__section mx-auto mt-10">MEET THE FACULTY</h1>
         <p class="text-center faculty__subtitle mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-        <div class="w-full xl:w-1/2 xl:mt-4 lg:w-1/2 md:w-1/2 md:mt-10 sm:w-full sm:mt-4 sm:-mt-10 xs:w-full inline-block test__section">
+        <div class="w-full xl:w-1/2 xl:mt-40 lg:w-1/2 lg:mt-8 md:w-1/2 md:-mt-8 sm:w-full sm:mt-4 sm:-mt-10 xs:w-full inline-block test__section">
           
        <ClientOnly>
         <TinySlider :mouse-drag="true" :speed="1000" :loop="true" :autoplay="true" :center="true" :autoplayTimeout="2000" items="1" :controls="false" :autoplayButton="false" gutter="20">
-          <div class="faculty__test">
-            <g-image src="../../static/faculty.png" height="140" width="140" alt="Faculty" class="justify-center mx-auto" quality="60"/>
-            <p class="faculty__name text-center mx-auto mt-4">Josh Smith</p>
-            <p class="faculty__position text-center mx-auto">Position</p>
-            <p class="faculty__desc text-center mx-auto px:10 mt-8 xl:px-20 lg:px-20 md:px-20 sm:px-20">Lorem ipsum dolor sit amet, consect rth
-             adipisicing elit. Magnam repellat aut  neq 
-            Doloribus sunt non aut reiciendis, teryen
-            figaro vel recusandae obcaecati hic. 
-            Magnam repellat autt neque! Doloribus 
-            sunt non aut reiciendis, vel recusandae 
-            obcaecati hic</p>
-          </div>
-          <div class="faculty__test">
-            <g-image src="../../static/faculty.png" height="140" width="140" alt="Faculty" class="justify-center mx-auto" quality="60"/>
-            <p class="faculty__name text-center mx-auto mt-4">Josh Smith</p>
-            <p class="faculty__position text-center mx-auto">Position</p>
-            <p class="faculty__desc text-center mx-auto px:10 mt-8 xl:px-20 lg:px-20 md:px-20 sm:px-20">Lorem ipsum dolor sit amet, consect rth
-             adipisicing elit. Magnam repellat aut  neq 
-            Doloribus sunt non aut reiciendis, teryen
-            figaro vel recusandae obcaecati hic. 
-            Magnam repellat autt neque! Doloribus 
-            sunt non aut reiciendis, vel recusandae 
-            obcaecati hic</p>
-          </div><div class="faculty__test">
-            <g-image src="../../static/faculty.png" height="140" width="140" alt="Faculty" class="justify-center mx-auto" quality="60"/>
-            <p class="faculty__name text-center mx-auto mt-4">Josh Smith</p>
-            <p class="faculty__position text-center mx-auto">Position</p>
-            <p class="faculty__desc text-center mx-auto px:10 mt-8 xl:px-20 lg:px-20 md:px-20 sm:px-20">Lorem ipsum dolor sit amet, consect rth
-             adipisicing elit. Magnam repellat aut  neq 
-            Doloribus sunt non aut reiciendis, teryen
-            figaro vel recusandae obcaecati hic. 
-            Magnam repellat autt neque! Doloribus 
-            sunt non aut reiciendis, vel recusandae 
-            obcaecati hic</p>
+          <div class="faculty__test" v-for="team in $page.faculty.edges" :key="team.node.id">
+            <g-image :src="team.node.image" alt="Faculty" class="justify-center mx-auto faculty__img" quality="60"/>
+            <p class="faculty__name text-center mx-auto mt-4">{{team.node.name}}</p>
+            <p class="faculty__position text-center mx-auto">{{team.node.position}}</p>
+            <p class="faculty__desc text-center mx-auto px:10 mt-8 xl:px-20 lg:px-20 md:px-20 sm:px-20">{{team.node.description}}</p>
           </div>
         </TinySlider>
        </ClientOnly>   
@@ -113,6 +84,16 @@ query{
         description
         date (format: "MMMM D  YYYY")
         path
+      }
+    }
+  }
+  faculty : allFaculty{
+    edges {
+      node {
+        name
+        description
+        position
+        image
       }
     }
   }

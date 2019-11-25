@@ -30,6 +30,20 @@ module.exports = {
       },
     },
     {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: 'content/steps/**/*.md',
+        typeName: 'Step',
+      },
+    },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: 'content/faculty/**/*.md',
+        typeName: 'Faculty',
+      },
+    },
+    {
       use: '@gridsome/plugin-sitemap',
       options: {
         cacheTime: 600000, // default

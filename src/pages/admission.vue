@@ -18,42 +18,21 @@
       </div>
     </div>
    <div class="flex flex-row mt-10">
-     <div class="container mx-auto">
-       <div class="w-full mx-auto">
-      <h2 class="steps">Steps</h2>
-        <div class="tabs">
-          <div class="tab my-6">
-            <input type="radio" id="rd1" name="rd">
-            <label class="tab-label" for="rd1">1. Lorem, ipsum dolor sit amet</label>
-            <div class="tab-content">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, facilis.
+       <div class="container mx-auto">
+         <div class="w-full mx-auto">
+        <h2 class="steps">Steps</h2>
+          <div class="tabs">
+            <div class="tab my-6" v-for="step in $page.allstep.edges" :key="step.node.id">
+                <input type="radio" :id="`rd+${step.node.order}`" name="rd">
+                <label class="tab-label" :for="`rd+${step.node.order}`">{{step.node.order}}. {{step.node.title}}</label>
+                <div class="tab-content">
+                  {{step.node.description}}
+                </div>
             </div>
           </div>
-          <div class="tab my-6">
-            <input type="radio" id="rd2" name="rd">
-            <label class="tab-label" for="rd2">2. Lorem, ipsum dolor sit amet</label>
-            <div class="tab-content">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, aut.
-            </div>
-          </div>
-          <div class="tab my-6">
-            <input type="radio" id="rd3" name="rd">
-            <label class="tab-label" for="rd3">3. Lorem, ipsum dolor sit amet</label>
-            <div class="tab-content">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, aut.
-            </div>
-          </div>
-          <div class="tab my-6">
-            <input type="radio" id="rd2" name="rd">
-            <label class="tab-label" for="rd2">4. Lorem, ipsum dolor sit amet</label>
-            <div class="tab-content">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, aut.
-            </div>
-          </div>
-        </div>
-     </div>
-     </div>
-   </div>
+       </div>
+      </div>
+    </div>
    <div class="container mx-auto mb-10">
       <div class="w-full mx-auto mt-10">
         <p class="process__desc">Lorem ipsum dolor sit ametss, consectetur adipiscing elit. Fusce molestie massa at metus gravida efficitur. Aliquam felis risus, dapibus vitae nisl et, suscipit elementum leo. Vestibulum blandit nunc vitae dignissim imperdiet. Pellentesque vitae ante sit amet augue vestibulum dictum ac in nunc. Aliquam tristique ligula libero, quis ultrices turpis suscipit a.</p>
@@ -61,10 +40,21 @@
    </div>
   </Layout>
 </template>
-
+<page-query>
+query{ 
+  allstep : allStep(sortBy: "order", order : ASC,) {
+    edges {
+      node {
+        title
+        description
+        order
+      }
+    }
+  }
+}
+</page-query>
 <script>
-
-
+import Steps from '~/templates/Steps.vue';
 export default {
   components: { 
     TinySlider: () => import('vue-tiny-slider')
