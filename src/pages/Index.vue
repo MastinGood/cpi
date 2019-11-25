@@ -1,7 +1,7 @@
 <template>
   <Layout>
  
-     <div class="flex-wrap container mx-auto head__container w-full px:10 xl:px-20 lg:px:20 md:px-20 sm:px:20">
+     <div class="flex-wrap container mx-auto head__container w-full px:10 xl:px-20 lg:px:20 md:px-20 sm:px:20" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000" data-aos-once="true">
       <h2 class="sub__head mb-3 mx-auto text-center xl:text-left xl:text-left md:text-left sm:text-left">HELPING YOU GROW</h2>
       <h1 class="main__head text-center xl:text-left xl:text-left md:text-left sm:text-left">Best Technical<br> Vocational Institution</h1>
       <p class="w-full mt-10 xl:w-1/2 xl:mt-0 lg:w-1/2 lg:mt-0 md:w-1/2 md:mt-0 sm:w-1/2 sm:mt-0 p__head mt-3 mb-8 text-center xl:text-left xl:text-left md:text-left sm:text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, gityre
@@ -22,7 +22,7 @@
         </div>
         <div class="flex flex-wrap mb-4 about__section">
           <div class="w-full lg:w-1/2 md:w-full sm:w-full sm:-mt-20 sm:block sm:pb-8 md:mt-10 clearfix">
-            <g-image src="../../static/about_pic.jpg" class="about__pic" alt="About Us"/>
+            <g-image src="../../static/about_pic.jpg" class="about__pic" alt="About Us" data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000" data-aos-once="true" data-aos-offset="300" data-aos-easing="ease-in-sine"/>
           </div>
           <div class="w-full mt-8 lg:w-1/2 lg:pl-30 md:w-full md:pl-10 md:mt-10 sm:w-full sm:block">
             <h2 class="about__title">About Us</h2>
@@ -66,7 +66,7 @@
         </div>
         <div class="xl:w-1/2 lg:w-1/2 md:w-1/2 xs:w-full mt-20 inline-block">
           
-            <g-image class="w-full" src="../../static/map.png" alt="Located" quality="60"/>
+            <g-image class="w-full" src="../../static/map.png" alt="Located" quality="60" data-aos="fade-left" data-aos-delay="200" data-aos-duration="1000" data-aos-once="true"/>
          
         </div>
       </div>

@@ -3,7 +3,7 @@
  
      <div class="flex flex-row container mx-auto head__container">
       
-      <h1 class="admission__title text-center mx-auto">ABOUT US</h1>
+      <h1 class="admission__title text-center mx-auto" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000" data-aos-once="true">ABOUT US</h1>
      
      </div>
 
@@ -40,7 +40,7 @@
         <h2 class="text-center history__title mt-20 mb-6">History</h2>
         <p class="history__desc mb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
          <p class="history__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <g-image src="../../static/about_bg_2.png" class="about_bg_2 my-10" alt="Admission" quality="60"/>
+        <g-image src="../../static/about_bg_2.png" class="about_bg_2 my-10" alt="Admission" quality="60" data-aos="zoom-in-up" data-aos-delay="200" data-aos-duration="1000" data-aos-once="true"/>
       </div>
     </div>
     <div class="flex flex-row mb-20">

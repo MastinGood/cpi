@@ -3,8 +3,8 @@
 
 import DefaultLayout from '~/layouts/Default.vue'
 import NewsLayout from '~/layouts/NewsLayout.vue'
-import VueScrollTo from 'vue-scrollto'
-import VueFuse from 'vue-fuse'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 
@@ -12,12 +12,9 @@ export default function (Vue, { router, head, isClient }) {
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout)
   Vue.component('NewsLayout', NewsLayout)
-  Vue.use(VueScrollTo, {
-    duration: 500,
-    easing: "ease",
-  })
+ 
+AOS.init();
 
-  Vue.use(VueFuse)
 
   head.meta.push({
     name: 'keywords',

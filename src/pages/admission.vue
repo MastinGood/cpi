@@ -3,7 +3,7 @@
  
      <div class="flex flex-row container mx-auto head__container">
       
-      <h1 class="admission__title text-center mx-auto">Admission</h1>
+      <h1 class="admission__title text-center -mt-4 mx-auto lg:-mt-20 md:-mt-20 sm:-mt-20" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000" data-aos-once="true">Admission</h1>
      
      </div>
 
