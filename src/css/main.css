@@ -59,6 +59,14 @@
   color:#154071;
   font-family:'Open Sans', sans-serif;
 }
+.menu__list ul li a:hover{
+  color: #2272ce!important;
+  border-left: 5px solid #2272ce;
+}
+.menu__list ul li .active--exact{
+   color: #2272ce!important;
+  border-left: 5px solid #2272ce;
+}
 .tns-outer [data-action]{
   display: none!important;
   visibility: hidden!important;
