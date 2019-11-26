@@ -3,18 +3,12 @@
 
 import DefaultLayout from '~/layouts/Default.vue'
 import NewsLayout from '~/layouts/NewsLayout.vue'
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-
 
 
 export default function (Vue, { router, head, isClient }) {
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout)
   Vue.component('NewsLayout', NewsLayout)
- 
-AOS.init();
-
 
   head.meta.push({
     name: 'keywords',
