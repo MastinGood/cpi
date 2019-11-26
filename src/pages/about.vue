@@ -23,7 +23,7 @@
       <div class="container mx-auto">
         <div class="w-full">
           <h2 class="integrity">Integrity | Service | Merit</h2>
-          <p class="integrity__desc mt-2">Our School is diverse and dynamic, and our students have the highest aspirations for their education and future lives.</p>
+          <p class="integrity__desc mt-2">Our School is diverse and dynamic, and our students have the highest aspirations for their education and future livesss.</p>
         </div>
       </div>
     </div>
