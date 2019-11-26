@@ -102,6 +102,7 @@ query{
 
 <script>
 import NewsList from '~/templates/NewsList.vue';
+
 export default {
   components: { 
     TinySlider: () => import('vue-tiny-slider'),
