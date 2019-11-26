@@ -59,15 +59,15 @@
   color:#154071;
   font-family:'Open Sans', sans-serif;
 }
-.menu__list ul li a:hover{
+.menu__list ul li .menu__link:hover{
   color: #2272ce!important;
-  border-left: 4px solid #2272ce;
-  transition: all 0.2s ease;
+  border-left: 4px solid #2272ce!important;
+  transition: all 0.2s ease!important;
 
 }
 .menu__list ul li .active--exact{
    color: #2272ce!important;
-  border-left: 4px solid #2272ce;
+  border-left: 4px solid #2272ce!important;
 
 }
 .tns-outer [data-action]{
