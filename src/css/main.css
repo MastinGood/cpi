@@ -61,11 +61,14 @@
 }
 .menu__list ul li a:hover{
   color: #2272ce!important;
-  border-left: 5px solid #2272ce;
+  border-left: 4px solid #2272ce;
+  transition: all 0.2s ease;
+
 }
 .menu__list ul li .active--exact{
    color: #2272ce!important;
-  border-left: 5px solid #2272ce;
+  border-left: 4px solid #2272ce;
+
 }
 .tns-outer [data-action]{
   display: none!important;
@@ -496,7 +499,7 @@ font-size: 40px;
   height: 650px;
 }
 .foot__logo {
-  height: 70px;
+  height: 60px;
   width: 100%;
 }
 .footer__desc{
@@ -645,7 +648,7 @@ font-size: 40px;
   font-size: 18px;
 }
 .foot__logo {
-    height: 100px;
+    height: 90px;
     width: 390px;
 }
 .footer__desc{

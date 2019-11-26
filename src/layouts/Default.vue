@@ -3,7 +3,7 @@
     <header>
       <nav class="container mx-auto flex flex-wrap justify-between items-center py-8">
         <div>
-          <g-link to="/" aria-label="Home Logo"><g-image src="../../static/logo.png" alt="Logo" immediate="true" class="logo1" quality="60"/></g-link>
+          <g-link to="/" aria-label="Home Logo"><g-image src="../../static/logofinalfinal.png" alt="Logo" immediate="true" class="logo1" quality="60"/></g-link>
           <g-link to="/" aria-label="Home Logo sub"><g-image src="../../static/logo-sub.png" alt="Logo" immediate="true" class="logo2" quality="60"/></g-link>
         </div>
         
@@ -36,7 +36,7 @@
     <div class="flex flex-wrap w-full footer">
      <div class="container mx-auto">
        <div class="-mt-4 xl:w-1/3 lg:w-1/3 md:w-full sm:full pt-16 inline-block align-top">
-           <g-image class="foot__logo" src="../../static/foot_logo.png" quality="60" alt="Footer Logo"/>
+           <g-image class="foot__logo mx-auto" src="../../static/footer_logo.png" quality="60" alt="Footer Logo"/>
            <p class="footer__desc mt-8">Lorem ipsum dolor sit amet, consectetur 
           adipisicing elit. Porro consectetur ut hic ipsum et 
           veritatis corrupti. Itaque eius soluta optio 
