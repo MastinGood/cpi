@@ -32,5 +32,5 @@ collections:
       - {label: "Full Name", name: "name", widget: "string"}
       - {label: "Position", name: "position", widget: "string" }
       - {label: "Description", name: "description", widget: "text"}
-      - {label: "Image", name: "image", widget: "image" default: "/uploads/user.svg"}
+      - {label: "Image", name: "image", widget: "image", default: "/uploads/user.svg"}
       
